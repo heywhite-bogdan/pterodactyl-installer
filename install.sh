@@ -69,20 +69,12 @@ while [ "$done" == false ]; do
     "Install Panel"
     "Install Wings"
     "Install Panel & Wings"
-
-    "Unninstal Panel"
-    "Unninstal Wings"
-    "Unninstal Panel & Wings"
   )
 
   actions=(
     "panel"
     "wings"
     "panel;wings"
-
-    "nopanel"
-    "nowings"
-    "nopanel;wings"
   )
 
   output "What would you like to do?"
